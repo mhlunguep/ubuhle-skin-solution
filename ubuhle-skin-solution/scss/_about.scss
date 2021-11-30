@@ -1,0 +1,35 @@
+
+p {
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+.about {
+    background: url('/img/about-bg.png') center center;
+    background-size: cover;
+}
+.about_icon_section {
+    display: flex;
+    max-width: 800px;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+    text-align: center;
+    background: $white-color;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    z-index: 10;
+}
+
+.about_icon {
+    margin: 20px auto; 
+    padding: 10px;
+}
+.right-boder {
+    border-right: 1px solid $text-color;
+    padding-right: 50px;
+}
+.about_icon h5{
+    font-size: .8rem;
+    margin-top: 20px;
+    
+}

@@ -1,0 +1,18 @@
+
+.carousel-inner {
+    margin-top: -120px;
+    z-index: -1;
+}
+
+.carousel-caption {
+    position: absolute;
+    right: 50%;
+    top:50%;
+    text-align: left;
+}
+
+.carousel-caption p {
+    text-align: left;
+    margin-bottom: 12px;
+}
+

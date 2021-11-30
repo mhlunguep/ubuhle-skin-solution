@@ -1,0 +1,264 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Comfortaa', cursive;
+  color: #3D3016;
+}
+
+h1,
+h2,
+h4,
+h5 {
+  line-height: 1.3;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.about, .products, .faq, .contact {
+  min-height: 100vh;
+}
+
+.heading {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.btn {
+  border: 1px solid #3D3016;
+}
+
+.btn-primary {
+  background: #328D06;
+}
+
+.btn-primary:hover {
+  background: #FDB305;
+  -webkit-transform: scale(0.7);
+          transform: scale(0.7);
+}
+
+.btn-secondary {
+  background: #FDB305;
+}
+
+.btn-secondary:hover {
+  background: #328D06;
+}
+
+.topbar {
+  background: #000;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+  font-size: .8rem;
+}
+
+.topbar_left {
+  margin-left: 100px;
+  width: 60%;
+}
+
+.topbar_social_icons {
+  width: 20%;
+  text-align: right;
+}
+
+.topbar_social_icons a {
+  margin: 6px;
+}
+
+.topbar_social_icons i {
+  color: #fff;
+}
+
+.topbar_social_icons i:hover {
+  color: #FDB305;
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+}
+
+.topbar_right {
+  margin-right: 100px;
+  text-align: right;
+  width: 20%;
+}
+
+.topbar_right a {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  margin: 0 5px;
+}
+
+.topbar_right a:hover {
+  color: #FDB305;
+}
+
+nav a {
+  text-transform: uppercase;
+  text-align: right;
+}
+
+nav a:hover {
+  color: #FDB305 !important;
+}
+
+.carousel-inner {
+  margin-top: -120px;
+  z-index: -1;
+}
+
+.carousel-caption {
+  position: absolute;
+  right: 50%;
+  top: 50%;
+  text-align: left;
+}
+
+.carousel-caption p {
+  text-align: left;
+  margin-bottom: 12px;
+}
+
+p {
+  max-width: 800px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.about {
+  background: url("/img/about-bg.png") center center;
+  background-size: cover;
+}
+
+.about_icon_section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 800px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 20px auto;
+  text-align: center;
+  background: #fff;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  z-index: 10;
+}
+
+.about_icon {
+  margin: 20px auto;
+  padding: 10px;
+}
+
+.right-boder {
+  border-right: 1px solid #3D3016;
+  padding-right: 50px;
+}
+
+.about_icon h5 {
+  font-size: .8rem;
+  margin-top: 20px;
+}
+
+.products {
+  max-height: 850px;
+}
+
+.product-items {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  -ms-grid-rows: (1fr)[5];
+      grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.product-item {
+  max-width: 255px;
+  max-height: 450px;
+}
+
+.product-item h3 {
+  font-size: 0.9rem;
+}
+
+.product-item img {
+  max-height: 220px;
+  padding: 10px 0;
+}
+
+.product-item p {
+  text-align: left;
+  font-size: .9rem;
+}
+
+.product-items .member {
+  color: #328D06;
+  font-weight: 300;
+  font-size: .8rem;
+  margin-left: 1rem;
+}
+
+.faq {
+  min-height: 100vh;
+  background: #328D06;
+}
+
+.faq .heading {
+  color: #fff;
+}
+
+.faq .accordion {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.contact-icons, .icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+#map {
+  height: 100%;
+}
+
+/* Optional: Makes the sample page fill the window. */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+/*# sourceMappingURL=main.css.map */
